@@ -23,20 +23,20 @@ function App() {
         aria-label="Portfolio Content"
       >
         <motion.div
-          className="flex-2 w-full lg:items-center p-6 lg:leading-10 text-lg lg:text-2xl font-extralight tracking-wide"
+          className="flex-2 w-full  p-6 lg:leading-10 text-lg lg:text-2xl font-extralight tracking-wide"
           initial={{ y: 40, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: 40, opacity: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          <h2 className="text-center lg:text-left">
+          <h2>
             <span role="img" aria-label="Waving hand">
               👋
             </span>{" "}
             Hello!
           </h2>
           <br />
-          <p className="text-center lg:text-left">
+          <p>
             I’m a product designer who brings clarity to ambiguity and momentum
             to ideas. I think holistically, experiment boldly, and ask the
             questions that shift conversations. I balance design intuition with
@@ -44,7 +44,7 @@ function App() {
             design management, I’m bringing the same energy: steady leadership
             and decisions grounded in what users actually need.
           </p>
-          <div className="mt-5 flex gap-4 items-center justify-center lg:justify-start">
+          <div className="mt-5 flex gap-4">
             <a target="_blank" href="mailto:summerleeschoenfeld20@gmail.com">
               <img
                 className="cursor-pointer"
@@ -85,7 +85,7 @@ function App() {
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: 40, opacity: 0 }}
           transition={{ duration: 1, delay: 1 }}
-          className="flex-1 p-6 w-full lg:w-1/3 "
+          className="flex-1 p-6 w-full"
         >
           <h2 className="leading-10 text-2xl font-extralight tracking-wide">
             Experience
@@ -116,7 +116,7 @@ function App() {
               </span>
             </li>
             <li className="flex flex-col gap-3">
-              <div className="flex gap-5 justify-center lg:justify-start">
+              <div className="flex gap-5">
                 <a
                   style={{ height: "fit-content" }}
                   target="_blank"
@@ -137,7 +137,7 @@ function App() {
                   />
                 </a>
               </div>
-              <div className="flex gap-5 justify-center lg:justify-start">
+              <div className="flex gap-5">
                 <a target="_blank" href="https://www.gettoby.com/">
                   <img
                     className="cursor-pointer"
