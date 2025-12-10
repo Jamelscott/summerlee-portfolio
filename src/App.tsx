@@ -23,7 +23,7 @@ function App() {
         aria-label="Portfolio Content"
       >
         <motion.div
-          className="flex-1 w-full lg:w-2/3 lg:items-center p-6 lg:leading-10 text-lg lg:text-2xl font-extralight tracking-wide"
+          className="flex-2 w-full lg:items-center p-6 lg:leading-10 text-lg lg:text-2xl font-extralight tracking-wide"
           initial={{ y: 40, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: 40, opacity: 0 }}
@@ -115,14 +115,14 @@ function App() {
                 collectibles
               </span>
             </li>
-            <li className="flex flex-col gap-2">
-              <div className="flex gap-4 justify-center lg:justify-start">
+            <li className="flex flex-col gap-3">
+              <div className="flex gap-5 justify-center lg:justify-start">
                 <a
                   style={{ height: "fit-content" }}
                   target="_blank"
                   href="https://www.axiomzen.com/"
                 >
-                  <AxiomZenLogo width="63px" height="26px" />
+                  <AxiomZenLogo width="90px" height="35px" />
                 </a>
                 <a
                   style={{ height: "fit-content" }}
@@ -131,42 +131,42 @@ function App() {
                 >
                   <img
                     className="cursor-pointer"
-                    width="63px"
+                    width="90px"
                     height="20px"
                     src="/logo-dapperlabs.webp"
                   />
                 </a>
               </div>
-              <div className="flex gap-4 justify-center lg:justify-start">
+              <div className="flex gap-5 justify-center lg:justify-start">
                 <a target="_blank" href="https://www.gettoby.com/">
                   <img
                     className="cursor-pointer"
-                    width="26px"
-                    height="26px"
+                    width="46px"
+                    height="46px"
                     src="/Toby+logo.webp"
                   />
                 </a>
                 <a target="_blank" href="https://www.cryptokitties.co/">
                   <img
                     className="cursor-pointer"
-                    width="26px"
-                    height="26px"
+                    width="46px"
+                    height="46px"
                     src="/kitties-logo.webp"
                   />
                 </a>
                 <a target="_blank" href="https://www.zenhub.com/">
                   <img
                     className="cursor-pointer"
-                    width="26px"
-                    height="26px"
+                    width="46px"
+                    height="46px"
                     src="/zenhub-logo-.webp"
                   />
                 </a>
                 <a target="_blank" href="https://nbatopshot.com/">
                   <img
                     className="cursor-pointer"
-                    width="26px"
-                    height="26px"
+                    width="46px"
+                    height="46px"
                     src="/tpo+shot-logo.webp"
                   />
                 </a>
