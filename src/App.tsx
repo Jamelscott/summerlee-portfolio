@@ -45,7 +45,11 @@ function App() {
             and decisions grounded in what users actually need.
           </p>
           <div className="mt-5 flex gap-4">
-            <a target="_blank" href="mailto:summerleeschoenfeld20@gmail.com">
+            <a
+              className="flex align-center justify-center"
+              target="_blank"
+              href="mailto:summerleeschoenfeld20@gmail.com"
+            >
               <img
                 className="cursor-pointer"
                 height="28px"
@@ -55,6 +59,7 @@ function App() {
               />
             </a>
             <a
+              className="flex align-center justify-center"
               target="_blank"
               href="https://www.linkedin.com/in/summer-lee-schoenfeld/"
             >
@@ -67,6 +72,7 @@ function App() {
               />
             </a>
             <a
+              className="flex align-center justify-center"
               target="_blank"
               href="https://www.instagram.com/summerleeschoenfeld"
             >
