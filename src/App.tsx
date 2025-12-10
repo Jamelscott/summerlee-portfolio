@@ -11,7 +11,7 @@ function App() {
         initial={{ y: 40, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         exit={{ y: 40, opacity: 0 }}
-        transition={{ duration: 0.75 }}
+        transition={{ duration: 1 }}
         className="w-full mt-3 lg:mb-12"
       >
         <h1 className="text-center font-medium text-[35px] tracking-wide">
@@ -27,7 +27,7 @@ function App() {
           initial={{ y: 40, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: 40, opacity: 0 }}
-          transition={{ duration: 0.75, delay: 0.25 }}
+          transition={{ duration: 1, delay: 0.5 }}
         >
           <h2 className="text-center lg:text-left">
             <span role="img" aria-label="Waving hand">
@@ -84,7 +84,7 @@ function App() {
           initial={{ y: 40, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: 40, opacity: 0 }}
-          transition={{ duration: 0.75, delay: 0.5 }}
+          transition={{ duration: 1, delay: 1 }}
           className="flex-1 p-6 w-full lg:w-1/3 "
         >
           <h2 className="leading-10 text-2xl font-extralight tracking-wide">
