@@ -10,7 +10,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+        "add-domain": "echo \"https://jamelscott.github.io/summerlee-portfolio/\" > dist/CNAME",
+    "predeploy": "npm run build && npm run add-domain",
     "deploy": "gh-pages -d dist"
     },
   "dependencies": {
