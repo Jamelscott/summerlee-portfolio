@@ -45,16 +45,13 @@ function App() {
             and decisions grounded in what users actually need.
           </p>
           <div className="mt-5 flex gap-4 items-center justify-center lg:justify-start">
-            <a
-              target="_blank"
-              href="https://www.instagram.com/summerleeschoenfeld"
-            >
+            <a target="_blank" href="mailto:summerleeschoenfeld20@gmail.com">
               <img
                 className="cursor-pointer"
-                height="23px"
-                width="23px"
-                src={instagramLogo}
-                alt="instagram logo"
+                height="28px"
+                width="28px"
+                src={mailIcon}
+                alt="Mail icon"
               />
             </a>
             <a
@@ -69,13 +66,16 @@ function App() {
                 alt="LinkedIn logo"
               />
             </a>
-            <a target="_blank" href="mailto:summerleeschoenfeld20@gmail.com">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/summerleeschoenfeld"
+            >
               <img
                 className="cursor-pointer"
-                height="28px"
-                width="28px"
-                src={mailIcon}
-                alt="Mail icon"
+                height="23px"
+                width="23px"
+                src={instagramLogo}
+                alt="instagram logo"
               />
             </a>
           </div>
